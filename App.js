@@ -9,6 +9,8 @@ import Tutorials from './screens/Tutorials';
 import Games from './screens/Games';
 import Suggest from './screens/Suggest';
 import ArticleOne from './screens/Articles/ArticleOne';
+import ArticleTwo from './screens/Articles/ArticleTwo';
+import ArticleThree from './screens/Articles/ArticleThree';
 import TutorialOne from './screens/Tutorials/TutorialOne';
 import WordGuesser from './screens/Games/WordGuesser';
 
@@ -32,6 +34,8 @@ export default function App() {
         <Stack.Screen name="Games" component={Games} />
         <Stack.Screen name="Suggest" component={Suggest} />
         <Stack.Screen name="ArticleOne" component={ArticleOne} />
+        <Stack.Screen name="ArticleTwo" component={ArticleTwo} />
+        <Stack.Screen name="ArticleThree" component={ArticleThree} />
         <Stack.Screen name="TutorialOne" component={TutorialOne} />
         <Stack.Screen name="WordGuesser" component={WordGuesser} />
       </Stack.Navigator>

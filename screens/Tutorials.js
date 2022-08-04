@@ -110,7 +110,7 @@ const Tutorials = ({ navigation }) => {
       >
         Welcome to Tutorials!
       </Text>
-      <Text style={{ fontSize: 15, fontWeight: "500", alignSelf: "center" }}>
+      <Text style={{ fontSize: 15, fontWeight: "500", alignSelf: "center", marginBottom: 10, }}>
         Get started by pressing on a tutorial
       </Text>
       <View style={{ flexDirection: "row", alignItems: "center" }}>
@@ -125,7 +125,7 @@ const Tutorials = ({ navigation }) => {
                 backgroundColor: "white",
                 borderColor: "black",
                 borderWidth: 2,
-                height: 100,
+                height: 110,
                 width: 150,
                 padding: 15,
                 alignItems: "center",
@@ -166,7 +166,7 @@ const Tutorials = ({ navigation }) => {
                 backgroundColor: "white",
                 borderColor: "black",
                 borderWidth: 2,
-                height: 100,
+                height: 110,
                 width: 150,
                 padding: 15,
                 alignItems: "center",

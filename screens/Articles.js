@@ -7,25 +7,26 @@ import {
 } from "react-native";
 import React, { useLayoutEffect } from "react";
 import { SimpleLineIcons } from "@expo/vector-icons";
+import { Divider } from '@rneui/base';
 
 const data = [
   {
     id: "1",
     title: "What to do each month",
-    subtitle: "This is test subtitle",
+    subtitle: "When it comes to high school...",
     screen: "ArticleOne",
   },
   {
     id: "2",
-    title: "Title 2",
-    subtitle: "This is test subtitle",
-    screen: "articletwo",
+    title: "Master every swim stroke",
+    subtitle: "Swimming is one of the most...",
+    screen: "ArticleTwo",
   },
   {
     id: "3",
-    title: "Title 3",
-    subtitle: "This is test subtitle",
-    screen: "articlethree",
+    title: "Reviewing car favorites",
+    subtitle: "I love cars. I loved cars since the...",
+    screen: "ArticleThree",
   },
   {
     id: "4",
@@ -110,7 +111,14 @@ const Articles = ({ navigation }) => {
       >
         Welcome to Articles!
       </Text>
-      <Text style={{ fontSize: 15, fontWeight: "500", alignSelf: "center" }}>
+      <Text
+        style={{
+          fontSize: 15,
+          fontWeight: "500",
+          alignSelf: "center",
+          marginBottom: 10,
+        }}
+      >
         Get started by pressing on an article
       </Text>
       <View style={{ flexDirection: "row", alignItems: "center" }}>
@@ -125,7 +133,7 @@ const Articles = ({ navigation }) => {
                 backgroundColor: "white",
                 borderColor: "black",
                 borderWidth: 2,
-                height: 100,
+                height: 110,
                 width: 150,
                 padding: 15,
                 alignItems: "center",
@@ -136,19 +144,20 @@ const Articles = ({ navigation }) => {
               onPress={() => navigation.navigate(item.screen)}
             >
               <Text
-                style={{ color: "black", fontWeight: "bold", fontSize: 15 }}
+                style={{ color: "black", fontWeight: "bold", fontSize: 15, paddingHorizontal: 10 }}
                 ellipsizeMode="tail"
               >
                 {item.title}
               </Text>
+              <Divider orientation="horizontal" width={3}/>
               <Text
                 style={{
                   color: "black",
                   fontWeight: "400",
                   fontSize: 12,
                   marginTop: 5,
+                  paddingHorizontal: 5,
                 }}
-                ellipsizeMode="tail"
               >
                 {item.subtitle}
               </Text>
@@ -166,7 +175,7 @@ const Articles = ({ navigation }) => {
                 backgroundColor: "white",
                 borderColor: "black",
                 borderWidth: 2,
-                height: 100,
+                height: 110,
                 width: 150,
                 padding: 15,
                 alignItems: "center",
@@ -187,6 +196,7 @@ const Articles = ({ navigation }) => {
                   fontWeight: "400",
                   fontSize: 12,
                   marginTop: 5,
+                  paddingHorizontal: 5,
                 }}
                 ellipsizeMode="tail"
               >

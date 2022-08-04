@@ -111,7 +111,7 @@ const Games = ({ navigation }) => {
       >
         Welcome to Games!
       </Text>
-      <Text style={{ fontSize: 15, fontWeight: "500", alignSelf: "center" }}>
+      <Text style={{ fontSize: 15, fontWeight: "500", alignSelf: "center", marginBottom: 10, }}>
         Press on any game to begin your fun
       </Text>
       <View style={{ flexDirection: "row", alignItems: "center" }}>
@@ -126,7 +126,7 @@ const Games = ({ navigation }) => {
                 backgroundColor: "white",
                 borderColor: "black",
                 borderWidth: 2,
-                height: 100,
+                height: 110,
                 width: 150,
                 padding: 15,
                 alignItems: "center",
@@ -167,7 +167,7 @@ const Games = ({ navigation }) => {
                 backgroundColor: "white",
                 borderColor: "black",
                 borderWidth: 2,
-                height: 100,
+                height: 110,
                 width: 150,
                 padding: 15,
                 alignItems: "center",
