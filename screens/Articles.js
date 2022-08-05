@@ -30,23 +30,23 @@ const data = [
   },
   {
     id: "4",
-    title: "Title 4",
-    subtitle: "This is test subtitle",
-    screen: "articlefour",
+    title: "Improve organization",
+    subtitle: "In middle school, high school, and...",
+    screen: "ArticleFour",
   },
   {
     id: "5",
-    title: "Title 5",
-    subtitle: "This is test subtitle",
-    screen: "articlefive",
+    title: "Programming advanta...",
+    subtitle: "Software engineering has...",
+    screen: "ArticleFive",
   },
 ];
 const data1 = [
   {
     id: "1",
-    title: "Title 6",
-    subtitle: "This is test subtitle",
-    screen: "articlesix",
+    title: "Plan room makeover",
+    subtitle: "Room makeovers are very fun but...",
+    screen: "ArticleSix",
   },
   {
     id: "2",
@@ -144,7 +144,7 @@ const Articles = ({ navigation }) => {
               onPress={() => navigation.navigate(item.screen)}
             >
               <Text
-                style={{ color: "black", fontWeight: "bold", fontSize: 15, paddingHorizontal: 10 }}
+                style={{ color: "black", fontWeight: "bold", fontSize: 15, paddingHorizontal: 8 }}
                 ellipsizeMode="tail"
               >
                 {item.title}
@@ -183,9 +183,10 @@ const Articles = ({ navigation }) => {
                 marginTop: 20,
                 borderRadius: 16,
               }}
+              onPress={() => navigation.navigate(item.screen)}
             >
               <Text
-                style={{ color: "black", fontWeight: "bold", fontSize: 15 }}
+                style={{ color: "black", fontWeight: "bold", fontSize: 15, paddingHorizontal: 8 }}
                 ellipsizeMode="tail"
               >
                 {item.title}
