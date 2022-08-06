@@ -11,15 +11,15 @@ import { SimpleLineIcons } from "@expo/vector-icons";
 const data = [
   {
     id: "1",
-    title: "Edit Car Photos",
-    subtitle: "Editing car photos is a time-consuming job. It takes some time to find the cor...",
+    title: "Editing Car Photos",
+    subtitle: "Editing car photos is a time-consu...",
     screen: "TutorialOne",
   },
   {
     id: "2",
-    title: "Title 2",
-    subtitle: "This is test subtitle",
-    screen: "articletwo",
+    title: "Custom NFL Posters",
+    subtitle: " If you are an NFL fan and want to... ",
+    screen: "TutorialTwo",
   },
   {
     id: "3",
@@ -147,6 +147,7 @@ const Tutorials = ({ navigation }) => {
                   fontWeight: "400",
                   fontSize: 12,
                   marginTop: 5,
+                  paddingHorizontal: 5,
                 }}
                 ellipsizeMode="tail"
               >

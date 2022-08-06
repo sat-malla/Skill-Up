@@ -19,6 +19,7 @@ import ArticleEight from './screens/Articles/ArticleEight';
 import ArticleNine from './screens/Articles/ArticleNine';
 import ArticleTen from './screens/Articles/ArticleTen';
 import TutorialOne from './screens/Tutorials/TutorialOne';
+import TutorialTwo from './screens/Tutorials/TutorialTwo';
 import WordGuesser from './screens/Games/WordGuesser';
 
 
@@ -51,6 +52,7 @@ export default function App() {
         <Stack.Screen name="ArticleNine" component={ArticleNine} />
         <Stack.Screen name="ArticleTen" component={ArticleTen} />
         <Stack.Screen name="TutorialOne" component={TutorialOne} />
+        <Stack.Screen name="TutorialTwo" component={TutorialTwo} />
         <Stack.Screen name="WordGuesser" component={WordGuesser} />
       </Stack.Navigator>
     </NavigationContainer>
