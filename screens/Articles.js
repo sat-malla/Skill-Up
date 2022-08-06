@@ -12,31 +12,31 @@ import { Divider } from '@rneui/base';
 const data = [
   {
     id: "1",
-    title: "What to do each month",
+    title: "What to Do Each Month",
     subtitle: "When it comes to high school...",
     screen: "ArticleOne",
   },
   {
     id: "2",
-    title: "Master every swim stroke",
+    title: "Master Every Swim Stroke",
     subtitle: "Swimming is one of the most...",
     screen: "ArticleTwo",
   },
   {
     id: "3",
-    title: "Reviewing car favorites",
+    title: "Reviewing Car Favorites",
     subtitle: "I love cars. I loved cars since the...",
     screen: "ArticleThree",
   },
   {
     id: "4",
-    title: "Improve organization",
+    title: "Improve Organization",
     subtitle: "In middle school, high school, and...",
     screen: "ArticleFour",
   },
   {
     id: "5",
-    title: "Programming advanta...",
+    title: "Programming Advanta...",
     subtitle: "Software engineering has...",
     screen: "ArticleFive",
   },
@@ -44,33 +44,33 @@ const data = [
 const data1 = [
   {
     id: "1",
-    title: "Plan room makeover",
+    title: "Plan Room Makeover",
     subtitle: "Room makeovers are very fun but...",
     screen: "ArticleSix",
   },
   {
     id: "2",
-    title: "Title 7",
+    title: "OAuth",
     subtitle: "This is test subtitle",
-    screen: "articleseven",
+    screen: "ArticleSeven",
   },
   {
     id: "3",
-    title: "Title 8",
-    subtitle: "This is test subtitle",
-    screen: "articleeight",
+    title: "Monsters' Opinions",
+    subtitle: "This world is full of mysteries. I...",
+    screen: "ArticleEight",
   },
   {
     id: "4",
-    title: "Title 9",
-    subtitle: "This is test subtitle",
-    screen: "articlenine",
+    title: "5 Things to Explore",
+    subtitle: "When there is nothing to do, I...",
+    screen: "ArticleNine",
   },
   {
     id: "5",
-    title: "Title 10",
-    subtitle: "This is test subtitle",
-    screen: "articleten",
+    title: "NFL Team Predictions",
+    subtitle: "Ok yes, I know it's not an article...",
+    screen: "ArticleTen",
   },
 ];
 
@@ -191,6 +191,7 @@ const Articles = ({ navigation }) => {
               >
                 {item.title}
               </Text>
+              <Divider orientation="horizontal" width={3}/>
               <Text
                 style={{
                   color: "black",

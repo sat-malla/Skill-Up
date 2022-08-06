@@ -12,7 +12,7 @@ import { SimpleLineIcons } from "@expo/vector-icons";
 const ArticleFive = ({ navigation }) => {
   useLayoutEffect(() => {
     navigation.setOptions({
-      title: "Programming advantages",
+      title: "Programming Advantages",
       headerBackTitle: "Back",
       headerRight: () => (
         <View
@@ -39,7 +39,7 @@ const ArticleFive = ({ navigation }) => {
       contentContainerStyle={styles.containerView}
     >
       <Text style={styles.header}>
-        Advantage of popular programming languages
+        Advantage of Popular Programming Languages
       </Text>
       <Image
         source={require("/Users/sathvikm/Documents/Builds/everything-proj/assets/programming.jpeg")}

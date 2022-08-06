@@ -12,7 +12,7 @@ const data = [
   {
     id: "1",
     title: "Edit Car Photos",
-    subtitle: "This is test subtitle",
+    subtitle: "Editing car photos is a time-consuming job. It takes some time to find the cor...",
     screen: "TutorialOne",
   },
   {

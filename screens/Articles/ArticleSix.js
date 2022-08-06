@@ -139,11 +139,4 @@ const styles = StyleSheet.create({
     marginTop: 20,
     paddingHorizontal: 5,
   },
-  smallHeader: {
-    fontWeight: "bold",
-    fontSize: 25,
-    marginTop: 20,
-    paddingHorizontal: 5,
-    alignSelf: "flex-start",
-  },
 });

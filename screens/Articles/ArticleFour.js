@@ -12,7 +12,7 @@ import { SimpleLineIcons } from "@expo/vector-icons";
 const ArticleFour = ({ navigation }) => {
   useLayoutEffect(() => {
     navigation.setOptions({
-      title: "Improve your organization",
+      title: "Improve Your Organization",
       headerBackTitle: "Back",
       headerRight: () => (
         <View
@@ -39,7 +39,7 @@ const ArticleFour = ({ navigation }) => {
       contentContainerStyle={styles.containerView}
     >
       <Text style={styles.header}>
-        Improving your organization skills for school
+        Improving Your Organization Skills for School
       </Text>
       <Image
         source={require("/Users/sathvikm/Documents/Builds/everything-proj/assets/organize.jpeg")}

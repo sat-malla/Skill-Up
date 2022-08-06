@@ -12,7 +12,7 @@ import { SimpleLineIcons } from "@expo/vector-icons";
 const ArticleOne = ({ navigation }) => {
   useLayoutEffect(() => {
     navigation.setOptions({
-      title: "What to do each month",
+      title: "What to Do Each Month",
       headerBackTitle: "Back",
       headerRight: () => (
         <View
@@ -39,7 +39,7 @@ const ArticleOne = ({ navigation }) => {
       contentContainerStyle={styles.containerView}
     >
       <Text style={styles.header}>
-        What to do each month of the year - For highschoolers
+        What to Do Each Month Of The Year - For Highschoolers
       </Text>
       <Image
         source={require("/Users/sathvikm/Documents/Builds/everything-proj/assets/highschoolstudy.jpeg")}

@@ -13,7 +13,7 @@ import Unorderedlist from "react-native-unordered-list";
 const ArticleTwo = ({ navigation }) => {
   useLayoutEffect(() => {
     navigation.setOptions({
-      title: "Master each swim stroke",
+      title: "Master Every Swim Stroke",
       headerBackTitle: "Back",
       headerRight: () => (
         <View
@@ -39,7 +39,7 @@ const ArticleTwo = ({ navigation }) => {
       style={styles.container}
       contentContainerStyle={styles.containerView}
     >
-      <Text style={styles.header}>Mastering each swim stroke</Text>
+      <Text style={styles.header}>Mastering Every Swim Stroke</Text>
       <Image
         source={require("/Users/sathvikm/Documents/Builds/everything-proj/assets/swimming.jpeg")}
         style={{ width: 400, height: 250, marginTop: 20, borderRadius: 8 }}
